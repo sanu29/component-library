@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+    margin: 0px;
+    padding: 0px 0px;
+}
+body{
+    margin:0px;
+    font-family: 'Lobster', cursive; */
+   
+    padding: 0px 0px;
+}
+:root{
+    --primary-color:#7C3AED;
+    --dark-grey:#6B7280;
+    --light-grey:#F3F4F6;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
+.link{
+    text-decoration: none;
+    padding : 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    padding : 0.5rem;
+    color :white;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding : 0.5rem;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+
+}
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: white; 
+    padding: 1rem;
+    border-bottom-left-radius:1rem ;   
+}
+
+.navigation .link{
+    color: white;
+}
+.navigation.nav-pill{
+    text-align: right;
+}
+.navigation.nav-brand{
+    font-weight: bold;
+    font-size:1.1rem ;
+}
+.navigation.active{
+    font-weight: bold;
+}
+/* Header */
+.hero{
+    padding: 2rem;
+    
+}
+.hero.hero-img{
+    max-width: 300px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+}
+.hero-heading{
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    /* background-color: yellow */
+}
+
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    padding: 2 rem;
+}
+.ow{
+    background-color:var(--light-grey) ;
+
+}
+/* footer */
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+footer .link{
+    color: white;
+}
+footer ul{
+   padding-inline-start: 0px;
+}
